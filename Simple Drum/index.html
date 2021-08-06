@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logo.PNG">
+    <title>VATHOUSE | Simple Drum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- The sounds -->
+    <audio src="./sound/kick1.wav" id="sound-1"></audio>
+    <audio src="./sound/kick2.wav" id="sound-2"></audio>
+    <audio src="./sound/crash.WAV" id="sound-3"></audio>
+    <audio src="./sound/snare1.wav" id="sound-4"></audio>
+    <audio src="./sound/snare2.WAV" id="sound-5"></audio>
+    <audio src="./sound/snare3.WAV" id="sound-6"></audio>
+    <audio src="./sound/Hihat_3_closed.wav" id="sound-7"></audio>
+    <audio src="./sound/peng.wav" id="sound-8"></audio>
+    <audio src="./sound/yeet.mp3" id="sound-9"></audio>
+    <!-- Container Page -->
+    <main>
+        <nav>
+            <a href="index.html">
+                <div class="logo">
+                    <i class="fa fa-headphones" aria-hidden="true"></i>
+                    <div class="name">
+                        <h1>Just.A.Drum</h1>
+                        <p>Developed: Pagnavath</p>
+                    </div>
+                </div>
+            </a>
+        </nav>
+        <div class="change-color">
+            <div class="color">
+                <h1>Change Drum Pad Color</h1>
+            </div>
+            <div class="fill">
+                <input type="text" placeholder="color" id="color">
+                <button id="apply">Apply</button>
+            </div>
+        </div>
+        <div class="describe">
+            <p>Click drum pad to display the sound :)</p>
+        </div>
+        <section class="drum">
+            <div class="row-1">
+                <div class="pad" id="pad-1">
+
+                </div>
+                <div class="pad" id="pad-2">
+
+                </div>
+                <div class="pad" id="pad-3">
+
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="pad" id="pad-4">
+
+                </div>
+                <div class="pad" id="pad-5">
+
+                </div>
+                <div class="pad" id="pad-6">
+
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="pad" id="pad-7">
+
+                </div>
+                <div class="pad" id="pad-8">
+
+                </div>
+                <div class="pad" id="pad-9">
+                    <h1 style="opacity: 0.5; font-size: 18px; font-weight: lighter;" id="gta">GTA</h1>
+                </div>
+            </div>
+        </section>
+        <div class="stop" id="click-pause">
+            <button>Stop GTA Song</button>
+        </div>
+        <footer>
+            <p>Copyright <i class="fa fa-copyright"></i> Sok Pagnavath 2021, All rights reversed.</p>
+        </footer>
+    </main>
+    <script src="code.js"></script>
+</body>
+
+</html>

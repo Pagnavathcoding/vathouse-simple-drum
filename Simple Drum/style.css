@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+body {
+  color: #fff;
+}
+main {
+  width: 100%;
+  height: auto;
+  background: #121520;
+}
+p {
+  color: #676e8a;
+}
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.15);
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo i {
+  font-size: 40px;
+  color: #676e8a;
+}
+.name {
+  margin-left: 0.5em;
+}
+.name h1 {
+  font-size: 18px;
+}
+.name p {
+  font-size: 12px;
+}
+.facebook a i {
+  width: 30px;
+  height: 30px;
+  background: #1877f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 100%;
+  color: #121520;
+  transition: 0.1s ease;
+}
+.facebook a i:hover {
+  transition: 0.1s ease;
+  color: #fff;
+}
+.change-color {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 0;
+}
+.color h1 {
+  color: #676e8a;
+  font-size: 20px;
+}
+.fill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em 0;
+}
+.fill input {
+  width: 150px;
+  height: 30px;
+  background: none;
+  border: 1px solid #676e8a;
+  padding: 0 1em;
+  outline: none;
+  color: #676e8a;
+}
+.fill button {
+  width: 50px;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #121520;
+  background: rgb(255, 147, 73);
+  border: 1px solid rgb(255, 147, 73);
+  transition: 0.1s ease;
+}
+.fill button:active {
+  background: none;
+  border: 1px solid #676e8a;
+  color: #676e8a;
+  border-left: none;
+  transition: 0.1s ease;
+}
+::-webkit-input-placeholder {
+  color: #676e8a;
+}
+.describe {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1em 0;
+}
+.drum {
+  width: 100%;
+  height: auto;
+}
+.row-1,
+.row-2,
+.row-3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em 0;
+}
+.row-1 > div,
+.row-2 > div,
+.row-3 > div {
+  width: 100px;
+  height: 100px;
+  background: #676e8a;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.row-1 > div:active,
+.row-2 > div:active,
+.row-3 > div:active {
+  background: #fff;
+  opacity: 0.5;
+}
+#pad-2,
+#pad-5,
+#pad-8 {
+  margin: 0 1em;
+}
+#pad-9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.stop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 15vh;
+}
+footer {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid rgba(100, 100, 100, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.6em 0;
+  text-align: center;
+}
+.stop button {
+  width: 130px;
+  height: 30px;
+  margin: 0 0 0 1em;
+  border: none;
+  outline: none;
+  background: rgb(255, 147, 73);
+  cursor: pointer;
+}
+.stop button:active {
+  background: none;
+  border: 1px solid #676e8a;
+  color: #676e8a;
+}
+@media (max-width: 400px) {
+  .created {
+    flex-direction: column;
+    height: auto;
+    padding: 1em 0;
+  }
+  .stop {
+    margin: 0.5em 0 0 0;
+  }
+}
